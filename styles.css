@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header  ,footer{
+    background-color: rgb(249, 78, 78);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+.spn{
+    color: rgb(241, 31, 104);
+}
+main{
+    text-align: center;
+    margin: 30px;
+    height: 50vh;
+}
+.coutdown{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+.timer{
+    padding: 5px;
+}
+.timer span{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+}
+.timer .label{
+    color: rgb(79, 90, 90);
+    font-size: 1.6rem;
+}
